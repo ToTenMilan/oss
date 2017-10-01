@@ -3,32 +3,7 @@
 # s = 'zyxwvutsrqponmlkjihgfedcba' #=> z
 # # s = 'xbrlevzcenwmnlad' #=> cenw
 
-
-# previousChar = ''
-# string = ""
-# longestString = ""
-# prevbyte = 0
-# currbyte = 0
-# for char in s:
-#   currbyte = ord(char)
-#   # print(currbyte)
-#   if prevbyte <= currbyte:
-#     prevbyte = currbyte
-#     string += char
-#     if len(string) > len(longestString):
-#       longestString = string
-#       # print(longestString)
-#   else:
-#     string = "" + char
-#     prevbyte = 0
-#     currbyte = 0
-
-# print(longestString)
-
-s = 'azcbobobegghakl' #=> beggh
-# s = 'xvbszaacvqvhwp' #=> aacv
-# s = 'zyxwvutsrqponmlkjihgfedcba' #=> z
-# s = 'xbrlevzcenwmnlad' #=> cenw
+# Dont work for all cases
 
 previousChar = ""
 string = ""
@@ -74,5 +49,31 @@ print(longestString)
 #     zero the string
 #     zero prev charbyte
 #     zero curr charbyte
+
+# previousChar = ''
+# string = ""
+# longestString = ""
+# prevbyte = 0
+# currbyte = 0
+# for char in s:
+#   currbyte = ord(char)
+#   # print(currbyte)
+#   if prevbyte <= currbyte:
+#     prevbyte = currbyte
+#     string += char
+#     if len(string) > len(longestString):
+#       longestString = string
+#       # print(longestString)
+#   else:
+#     string = "" + char
+#     prevbyte = 0
+#     currbyte = 0
+
+# print(longestString)
+
+# s = 'azcbobobegghakl' #=> beggh
+# s = 'xvbszaacvqvhwp' #=> aacv
+# s = 'zyxwvutsrqponmlkjihgfedcba' #=> z
+# s = 'xbrlevzcenwmnlad' #=> cenw
 
 
